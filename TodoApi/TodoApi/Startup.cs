@@ -13,6 +13,10 @@ namespace TodoApi
     {
         private IConfiguration Configuration { get; }
 
+        /// <summary>
+        /// permits using databases
+        /// </summary>
+        /// <param name="configuration"></param>
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
