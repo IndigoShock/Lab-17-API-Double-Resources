@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApi", "TodoApi\TodoApi.csproj", "{FE3C92C6-B7C5-4B46-B7BC-7ED0FE444D1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApi", "TodoApi\TodoApi.csproj", "{FE3C92C6-B7C5-4B46-B7BC-7ED0FE444D1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject1", "XUnitTestProject1\XUnitTestProject1.csproj", "{B8BD831A-EECB-4682-8661-2D1AF9DFB34E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{FE3C92C6-B7C5-4B46-B7BC-7ED0FE444D1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE3C92C6-B7C5-4B46-B7BC-7ED0FE444D1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE3C92C6-B7C5-4B46-B7BC-7ED0FE444D1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8BD831A-EECB-4682-8661-2D1AF9DFB34E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8BD831A-EECB-4682-8661-2D1AF9DFB34E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8BD831A-EECB-4682-8661-2D1AF9DFB34E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8BD831A-EECB-4682-8661-2D1AF9DFB34E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
